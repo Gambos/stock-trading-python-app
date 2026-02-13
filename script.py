@@ -1,3 +1,5 @@
+# Script to extract data from Massive API
+
 import requests
 import os
 import csv
