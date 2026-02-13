@@ -1,3 +1,5 @@
+# Script to extract data from Massive API
+
 import requests
 import os
 import csv
@@ -42,6 +44,7 @@ def run_stock_job():
             writer.writeheader()
             writer.writerows(tickers)
         print(f"Successfully wrote {len(tickers)} tickers to {csv_filename}")
+
 
 if __name__ == "__main__":
     run_stock_job()
